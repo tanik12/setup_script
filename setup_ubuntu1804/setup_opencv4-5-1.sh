@@ -1,8 +1,5 @@
 #!/bin/sh
 
-#cd ~
-#mkdir git
-#cd git
 cd ~
 cd git
 
@@ -25,12 +22,6 @@ wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/mast
 unzip opencv-4.5.1.zip
 unzip opencv_contrib-4.5.1.zip
 cd opencv-4.5.1
-
-#wget https://github.com/opencv/opencv/archive/3.4.0.zip -O opencv-3.4.0.zip
-#wget https://github.com/opencv/opencv_contrib/archive/3.4.0.zip -O opencv_contrib-3.4.0.zip
-#unzip opencv-3.4.0.zip
-#unzip opencv_contrib-3.4.0.zip
-#cd opencv-3.4.0
 
 mkdir build
 cd build
