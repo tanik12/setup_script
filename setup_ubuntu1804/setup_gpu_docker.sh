@@ -14,13 +14,12 @@ ibus-daemon -d -x &
 sudo apt install vim -y
 
 sudo apt install git -y
-#git config --global user.email ""
-#git config --global user.name ""
+
+git config --global user.email ""
+git config --global user.name ""
 
 sudo apt install terminator -y
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt update
 sudo apt install -y --no-install-recommends nvidia-driver-460
 sudo reboot
-
-
