@@ -16,6 +16,8 @@ sudo apt -y install libjpeg8-dev libjasper-dev libpng12-dev libavcodec-dev libav
 sudo apt -y install libjpeg-dev libpng-dev libtiff-dev libtbb-dev
 sudo apt -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libatlas-base-dev libxvidcore-dev libx264-dev libgtk-3-dev
 sudo apt install -y python3-pyqt5 
+sudo apt-get install qtbase5-dev
+sudo apt-get install qtdeclarative5-dev
 
 wget -O opencv.zip https://github.com/opencv/opencv/archive/4.5.1.zip -O opencv-4.5.1.zip
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/master.zip -O opencv_contrib-4.5.1.zip
